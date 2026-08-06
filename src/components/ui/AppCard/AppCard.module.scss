@@ -1,0 +1,12 @@
+.card {
+  background: var(--app-surface);
+  color: var(--app-text-primary);
+
+  border-color: var(--app-border);
+  box-shadow: var(--app-shadow-sm);
+  border-radius: var(--app-radius-lg);
+
+  transition:
+    box-shadow 150ms ease,
+    border-color 150ms ease;
+}

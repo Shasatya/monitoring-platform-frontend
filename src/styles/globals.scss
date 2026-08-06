@@ -1,0 +1,38 @@
+:root {
+  // Backgrounds
+  --app-background: #f8fafc;
+  --app-surface: #ffffff;
+
+  // Text
+  --app-text-primary: #111827;
+  --app-text-secondary: #6b7280;
+  --app-text-muted: #9ca3af;
+
+  // Border
+  --app-border: #e5e7eb;
+
+  // Shadow
+  --app-shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+  // Radius
+  --app-radius-sm: 8px;
+  --app-radius-md: 12px;
+  --app-radius-lg: 16px;
+}
+
+[data-mantine-color-scheme="dark"] {
+  // Backgrounds
+  --app-background: #0f172a;
+  --app-surface: #1e293b;
+
+  // Text
+  --app-text-primary: #f8fafc;
+  --app-text-secondary: #94a3b8;
+  --app-text-muted: #64748b;
+
+  // Border
+  --app-border: #334155;
+
+  // Shadow
+  --app-shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
