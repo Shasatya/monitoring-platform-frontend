@@ -1,0 +1,33 @@
+.root {
+  width: 100%;
+}
+
+.label {
+  color: var(--app-text-primary);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.input {
+  height: 44px;
+  background: var(--app-surface);
+  color: var(--app-text-primary);
+  border-color: var(--app-border);
+  border-radius: var(--app-radius-md);
+
+  &::placeholder {
+    color: var(--app-text-muted);
+  }
+
+  &:focus {
+    border-color: var(--app-primary);
+  }
+}
+
+.description {
+  color: var(--app-text-secondary);
+}
+
+.error {
+  color: var(--app-danger);
+}
