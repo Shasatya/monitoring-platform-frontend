@@ -1,0 +1,41 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background: var(--app-background);
+  color: var(--app-text-primary);
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+
+.brand {
+  margin-bottom: 8px;
+
+  color: var(--app-primary);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--app-text-primary);
+  font-size: 32px;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: var(--app-text-secondary);
+}
+
+.footer {
+  text-align: center;
+  color: var(--app-text-secondary);
+}
