@@ -1,18 +1,19 @@
 :root {
-  --app-background: #f8fafc;
+  --app-background: #f5f7f6;
   --app-surface: #ffffff;
 
-  --app-text-primary: #111827;
-  --app-text-secondary: #6b7280;
-  --app-text-muted: #9ca3af;
+  --app-text-primary: #111814;
+  --app-text-secondary: #64716a;
+  --app-text-muted: #94a39a;
 
-  --app-border: #e5e7eb;
+  --app-primary: #16a34a;
+  --app-primary-hover: #15803d;
+  --app-primary-soft: rgba(22, 163, 74, 0.12);
 
-  --app-primary: #3b82f6;
-  --app-primary-hover: #2563eb;
+  --app-danger: #dc2626;
 
-  --app-danger: #ef4444;
-  --app-danger-hover: #dc2626;
+  --app-border: #dce5df;
+  --app-surface-hover: #f0f5f2;
 
   --app-shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.06);
 
@@ -22,20 +23,21 @@
 }
 
 [data-mantine-color-scheme="dark"] {
-  --app-background: #0f172a;
-  --app-surface: #1e293b;
+  --app-background: #090d0b;
+  --app-surface: #111713;
 
-  --app-text-primary: #f8fafc;
-  --app-text-secondary: #94a3b8;
-  --app-text-muted: #64748b;
+  --app-text-primary: #f0fdf4;
+  --app-text-secondary: #9caea2;
+  --app-text-muted: #64756a;
 
-  --app-border: #334155;
+  --app-primary: #22c55e;
+  --app-primary-hover: #4ade80;
+  --app-primary-soft: rgba(34, 197, 94, 0.14);
 
-  --app-primary: #60a5fa;
-  --app-primary-hover: #3b82f6;
+  --app-danger: #ef4444;
 
-  --app-danger: #f87171;
-  --app-danger-hover: #ef4444;
+  --app-border: #243229;
+  --app-surface-hover: #18221c;
 
-  --app-shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --app-shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.35);
 }
